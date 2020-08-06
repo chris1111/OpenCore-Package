@@ -5,6 +5,7 @@
 - Credit: ☞ [acidanthera OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 - Credit: ☞ [Packager chris1111](https://www.hackintosh-montreal.com/t10355-install-media-bs-oc)
 - Credit: ☞ [Apple Pkbguild, Productbuild](https://developer.apple.com/forums/)
+- You can add your language and also add a LICENSE.rtf or other reading file
 - TAKE NOTE: For macOS 11 BigSur you must install this program on the system because macOS 11 is read-only and cannot be modified from another system Disk. For all other macOS you can use it from the disk of your choice, this has no effect
 
 
