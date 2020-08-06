@@ -1,6 +1,7 @@
 ## OpenCore-Package
 #### A simple utility to Build a macOS Package for installing OpenCore on a volume
 - Support Volumes: APFS, HFS+J
+- Language package: EN, RU, IT, ES, KO, PT, SE, FR, ZH, 
 ### Credit: ☞ [acidanthera OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 ### Credit: ☞ [Packager chris1111](https://www.hackintosh-montreal.com/t10355-install-media-bs-oc)
 ### Credit: ☞ [Apple Pkbguild, Productbuild](https://developer.apple.com/forums/)
