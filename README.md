@@ -11,7 +11,7 @@
 
 ### ⬇︎ Follow this video ⬇︎
 
-[![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/3bSgXcuv3M4)
+[![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)]()
 
 
 #### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V1)
