@@ -9,7 +9,7 @@
 
 ![Capture d’écran, le 2020-08-06 à 13 42 29](https://user-images.githubusercontent.com/6248794/89564356-e1de9000-d7ea-11ea-894e-b326abe096d8.png)
 
-### **************** ⬇︎ Follow this video ⬇︎ ****************
+### ********************* ⬇︎ Follow this video ⬇︎ *********************
 
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)]()
 
