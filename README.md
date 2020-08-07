@@ -1,4 +1,5 @@
 ## OpenCore-Package
+- Update 07 August 2020 Release V1: Unmount ESP or EFI before installing
 #### A simple utility to Build a macOS Package for installing OpenCore on a volume
 - Support Volumes: APFS, HFS+J
 - Language package: EN, RU, IT, ES, KO, PT, SE, FR, ZH, 
