@@ -1,5 +1,5 @@
 ## OpenCore-Package
-- Update 07 August 2020 Release V1: Unmount ESP or EFI before installing
+- Update 24 Jan 2021 The Package can now be installed from any disk for all macOS
 #### A simple utility to Build a macOS Package for installing OpenCore on a volume
 - Support Volumes: APFS, HFS+J
 - Language package: EN, RU, IT, ES, KO, PT, SE, FR, ZH, 
@@ -7,7 +7,7 @@
 - Credit: ☞ [Packager chris1111](https://www.hackintosh-montreal.com/t10355-install-media-bs-oc)
 - Credit: ☞ [Apple Pkbguild, Productbuild](https://developer.apple.com/forums/)
 - You can add your language and also add a LICENSE.rtf or other reading file
-- TAKE NOTE: For macOS 11 BigSur you must install this program on the system because macOS 11 is read-only and cannot be modified from another system Disk. For all other macOS you can use it from the disk of your choice, this has no effect
+- TAKE NOTE: For all other macOS you can use it from the disk of your choice, this has no effect
 
 
 
@@ -18,5 +18,5 @@
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/QZT0cKBWXjA)
 
 
-#### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V1)
+#### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V2)
 
