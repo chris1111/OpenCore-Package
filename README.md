@@ -5,6 +5,7 @@
 - Language package: EN, RU, IT, ES, KO, PT, SE, FR, ZH, 
 - Credit: ☞ [acidanthera OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 - Credit: ☞ [Packager chris1111](https://www.hackintosh-montreal.com/t10355-install-media-bs-oc)
+- Credit: ☞ [JrCs, partutil](https://github.com/CloverHackyColor/CloverBootloader/blob/master/CloverPackage/utils/partutil/partutil.c)
 - Credit: ☞ [Apple Pkbguild, Productbuild](https://developer.apple.com/forums/)
 - You can add your language and also add a LICENSE.rtf or other reading file
 - TAKE NOTE: For all other macOS you can use it from the disk of your choice, this has no effect
