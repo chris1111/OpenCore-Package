@@ -21,7 +21,7 @@ echo "preinstall: Root of system folder... $4"
 DEST_VOL="${3}"
 EFI_ROOT_DIR="${DEST_VOL}"/Private/tmp/EFIROOTDIR
 
-Sleep 3
+Sleep 5
 # Remove link to the partition that contain the EFI folder
 rm -rf "${DEST_VOL}"/Private/tmp/EFIROOTDIR
 
