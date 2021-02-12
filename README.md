@@ -1,4 +1,5 @@
 ## OpenCore-Package
+- Latest Update 12 Feb 2021 adapt for Big Sur 11.2.1 (20D74)
 - Update 24 Jan 2021 The Package can now be installed from any disk for all macOS
 #### A simple utility to Build a macOS Package for installing OpenCore on a volume
 - Support Volumes: APFS, HFS+J
