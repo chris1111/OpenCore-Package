@@ -10,6 +10,7 @@
 - Credit: ☞ [Apple Pkbguild, Productbuild](https://developer.apple.com/forums/)
 - You can add your language and also add a LICENSE.rtf or other reading file
 - TAKE NOTE: For all other macOS you can use it from the disk of your choice, this has no effect
+- This program will replace Opencore or Clover in the EFI partition, only the Apple folder will not be replaced if it exists
 
 
 
