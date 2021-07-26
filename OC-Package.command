@@ -17,7 +17,7 @@ mkdir -p ./OpenCore-Package/BUILD-PACKAGE
 mkdir -p /tmp/PackageDIR
 
 # Create the Packages with pkgbuild
-pkgbuild --root ./OC-EFI --scripts ./ScriptEFI --identifier com.opencorePackage.OpenCorePackage.pkg --version 1.0 --install-location /Private/tmp/EFIROOTDIR ./OpenCore-Package/BUILD-PACKAGE/opencorePackage.pkg
+pkgbuild --root ./OC-EFI --scripts ./ScriptEFI --identifier com.opencorePackage.OpenCorePackage.pkg --version 1.0 --install-location /Private/tmp ./OpenCore-Package/BUILD-PACKAGE/opencorePackage.pkg
 
 
 Sleep 2
