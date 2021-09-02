@@ -1,5 +1,6 @@
 ## OpenCore-Package
-### Latest Update 25 July 2021 adapt for Big Sur 11.5 (20G71)
+### Latest Update 02 Sept 2021 correction welcome.txt en.
+- Update 25 July 2021 adapt for Big Sur 11.5 (20G71)
 - Update 12 Feb 2021 adapt for Big Sur 11.2.1 (20D74)
 - Update 24 Jan 2021 The Package can now be installed from any disk for all macOS
 #### A simple utility to Build a macOS Package for installing OpenCore on a volume
@@ -22,5 +23,5 @@
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/QZT0cKBWXjA)
 
 
-#### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V3)
+#### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V4)
 
