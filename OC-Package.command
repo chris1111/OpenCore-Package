@@ -10,22 +10,18 @@ osascript -e 'display notification "OpenCorePackage" with title "Build"  sound n
 
 # Delete build if exist
 rm -rf ./OpenCore-Package
-rm -rf /tmp/PackageDIR
+rm -rf /Private/tmp/PackageDIR
 rm -rf ./OpenCore-Package.pkg
 Sleep 1
 mkdir -p ./OpenCore-Package/BUILD-PACKAGE
-mkdir -p /tmp/PackageDIR
+
 
 # Create the Packages with pkgbuild
 pkgbuild --root ./OC-EFI --scripts ./ScriptEFI --identifier com.opencorePackage.OpenCorePackage.pkg --version 1.0 --install-location /Private/tmp ./OpenCore-Package/BUILD-PACKAGE/opencorePackage.pkg
 
 
-Sleep 2
-# Expend the Packages with pkgutil
-pkgutil --expand ./OpenCore-Package/BUILD-PACKAGE/opencorePackage.pkg /tmp/PackageDIR/opencorePackage.pkg
 
-
-Sleep 3
+Sleep 1
 # Copy resources and distribution
 cp -r ./Distribution ./OpenCore-Package/BUILD-PACKAGE/Distribution.xml
 cp -rp ./Resources ./OpenCore-Package/BUILD-PACKAGE/
@@ -33,13 +29,21 @@ cp -rp ./Resources ./OpenCore-Package/BUILD-PACKAGE/
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
 Build final package with Productbuild "
-Sleep 3
+Sleep 1
 # Create the final Packages with Productbuild
 productbuild --distribution "./OpenCore-Package/BUILD-PACKAGE/Distribution.xml"  \
 --package-path "./OpenCore-Package/BUILD-PACKAGE/" \
 --resources "./OpenCore-Package/BUILD-PACKAGE/Resources" \
 "./OpenCore-Package.pkg"
 
+Sleep 1
+echo "
+= = = = = = = = = = = = = = = = = = = = = = = = =
+Expend the Packages with pkgutil "
+# Expend the Packages with pkgutil
+pkgutil --expand ./OpenCore-Package.pkg /Private/tmp/PackageDIR
+rm -rf ./OpenCore-Package.pkg
+Sleep 1
+# Flatten the Packages with pkgutil
+pkgutil --flatten /Private/tmp/PackageDIR ./OpenCore-Package.pkg
 rm -rf ./OpenCore-Package
-
-
