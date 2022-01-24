@@ -4,7 +4,7 @@ PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 
 # shell script Notifications
-osascript -e 'display notification "Installer OpenCorePackage" with title "Créatation"  sound name "default"'
+osascript -e 'display notification "Installer OpenCorePackage" with title "Build"  sound name "default"'
 
 # Delete build if exist
 rm -rf ./OpenCore-Package
@@ -29,14 +29,12 @@ cp -rp ./Resources ./OpenCore-Package/BUILD-PACKAGE/
 
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
-Creation du Packages finale avec Productbuild "
+Build the final package with Productbuild "
 Sleep 3
-# Create the final Packages with Productbuild
+# Build the final Packages with Productbuild
 productbuild --distribution "./OpenCore-Package/BUILD-PACKAGE/Distribution.xml"  \
 --package-path "./OpenCore-Package/BUILD-PACKAGE/" \
 --resources "./OpenCore-Package/BUILD-PACKAGE/Resources" \
 "./OpenCore-Package.pkg"
 
 rm -rf ./OpenCore-Package
-
-
