@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 # script for Installer OpenCorePackage
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
