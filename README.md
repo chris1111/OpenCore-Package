@@ -26,5 +26,5 @@
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/QZT0cKBWXjA)
 
 
-#### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V4)
+#### Download [➤ OpenCore-Package](https://github.com/chris1111/OpenCore-Package/releases/tag/V6)
 
