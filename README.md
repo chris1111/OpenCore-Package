@@ -1,6 +1,7 @@
 ## OpenCore-Package
 
-### Latest Update 15 Jan 2022 Adapt Monterey 12
+### Latest Update 24 Jan 2022 Update partutil, use Productbuild
+- Update 15 Jan 2022 Adapt Monterey 12
 - Update 02 Sept 2021 correction welcome.txt en.
 - Update 25 July 2021 adapt for Big Sur 11.5 (20G71)
 - Update 12 Feb 2021 adapt for Big Sur 11.2.1 (20D74)
